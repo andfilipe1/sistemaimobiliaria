@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="AdmBoaFe.Business.Models.Condominio" Collapsed="true">
+    <Position X="0.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AggAAAAAAAgJAAIAAAAAAAAAAAAgEAACAAACAAEABQA=</HashCode>
+      <FileName>Models\Condominio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdmBoaFe.Business.Models.Entity" Collapsed="true">
+    <Position X="5.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdmBoaFe.Business.Models.Imovel" Collapsed="true">
+    <Position X="3.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACBAAIAABEQAAAEAAAAAFCAAAAACAFABAA=</HashCode>
+      <FileName>Models\Imovel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdmBoaFe.Business.Models.Inquilino" Collapsed="true">
+    <Position X="8.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACIAAAAAAAAAAAAgAAACAAIAAAEABAA=</HashCode>
+      <FileName>Models\Inquilino.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdmBoaFe.Business.Models.Logradouro" Collapsed="true">
+    <Position X="2.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAACAEAAAAAACAAAACAAAAAAAAAAABAAg=</HashCode>
+      <FileName>Models\Logradouro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdmBoaFe.Business.Models.Proprietario" Collapsed="true">
+    <Position X="5.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAQAAAAAACAAAAIAEABAA=</HashCode>
+      <FileName>Models\Proprietario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
