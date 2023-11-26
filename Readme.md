@@ -1,4 +1,3 @@
-
 # Camada AdmBoaFe.Api
 
 A camada `AdmBoaFe.Api` é responsável por lidar com todas as questões relacionadas à interface da sua aplicação com o mundo externo, ou seja, a interface de programação de aplicações (API). Abaixo estão os principais componentes desta camada, com base nas imagens que você compartilhou:
@@ -34,7 +33,6 @@ Inclui classes relacionadas ao acesso e manipulação de dados, como o `Applicat
 ## Extensions
 
 Contém métodos de extensão ou classes auxiliares que adicionam funcionalidades específicas ou configuram aspectos da API.
-
 
 ## V1/V2
 
@@ -93,3 +91,35 @@ A camada `AdmBoaFe.Api` segue uma estrutura de separação em camadas, o que sig
 Essa estrutura em camadas permite que cada parte da aplicação tenha uma responsabilidade bem definida, tornando-a mais fácil de entender, manter e escalar.
 
 A combinação desses conceitos resulta em uma camada `AdmBoaFe.Api` que é robusta, flexível e aderente a boas práticas de design de software, promovendo a qualidade do código e a facilidade de evolução da aplicação.
+
+
+## Modelo de Dados
+
+O modelo de dados é um aspecto crucial da camada `AdmBoaFe.Api`, pois define a estrutura dos dados manipulados pela aplicação. O diagrama a seguir ilustra as classes do modelo de dados e seus relacionamentos:
+
+![Diagrama de Classes](diagrama_de_classes.png)
+
+### Descrição do Diagrama de Classes
+
+O diagrama de classes inclui as seguintes entidades e seus relacionamentos:
+
+- **Entity**: Classe base abstrata de todas as entidades do modelo. Contém a propriedade `Id` comum a todas as entidades.
+- **Condominio**: Representa um condomínio com suas propriedades específicas. Está associado a vários `Imovel` e a um `Logradouro`.
+- **Imovel**: Representa um imóvel, associado a um `Condominio`, um `Logradouro`, um `Proprietario` e um `Inquilino`.
+- **Inquilino**: Representa um inquilino, associado a um `Imovel` e um `Logradouro`.
+- **Logradouro**: Representa um logradouro, que pode estar associado a várias entidades como `Condominio`, `Imovel`, `Inquilino` e `Proprietario`.
+- **Proprietario**: Representa um proprietário, associado a vários `Imovel` e a um `Logradouro`.
+
+Este modelo de dados reflete a estrutura de um sistema de gerenciamento de propriedades, onde `Condominio`, `Imovel`, `Inquilino`, `Logradouro` e `Proprietario` são as entidades-chave.
+
+### Integração com a Camada de Aplicação
+
+As classes do modelo de dados são integradas à camada de aplicação da seguinte forma:
+
+- **Controllers**: Controladores interagem com estas entidades para processar as requisições HTTP, executar operações CRUD e fornecer respostas ao cliente.
+- **Services**: Serviços de aplicação utilizam estas entidades para implementar a lógica de negócios, manipular dados e interagir com a camada de acesso a dados.
+- **Data Access**: A camada de acesso a dados utiliza estas entidades para mapear objetos para o banco de dados usando o Entity Framework.
+
+Esta integração garante que a camada `AdmBoaFe.Api` possa gerenciar eficientemente as operações de dados, mantendo a consistência e integridade dos dados através das diferentes camadas da aplicação.
+
+
