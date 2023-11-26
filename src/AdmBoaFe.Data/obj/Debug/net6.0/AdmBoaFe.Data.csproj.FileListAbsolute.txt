@@ -1,0 +1,17 @@
+D:\Trabalho Remoto\Desafios\Taesa\sistemaimobiliaria\src\AdmBoaFe.Data\bin\Debug\net6.0\AdmBoaFe.Data.deps.json
+D:\Trabalho Remoto\Desafios\Taesa\sistemaimobiliaria\src\AdmBoaFe.Data\bin\Debug\net6.0\AdmBoaFe.Data.runtimeconfig.json
+D:\Trabalho Remoto\Desafios\Taesa\sistemaimobiliaria\src\AdmBoaFe.Data\bin\Debug\net6.0\AdmBoaFe.Data.dll
+D:\Trabalho Remoto\Desafios\Taesa\sistemaimobiliaria\src\AdmBoaFe.Data\bin\Debug\net6.0\AdmBoaFe.Data.pdb
+D:\Trabalho Remoto\Desafios\Taesa\sistemaimobiliaria\src\AdmBoaFe.Data\bin\Debug\net6.0\AdmBoaFe.Business.dll
+D:\Trabalho Remoto\Desafios\Taesa\sistemaimobiliaria\src\AdmBoaFe.Data\bin\Debug\net6.0\AdmBoaFe.Business.pdb
+D:\Trabalho Remoto\Desafios\Taesa\sistemaimobiliaria\src\AdmBoaFe.Data\obj\Debug\net6.0\AdmBoaFe.Data.csproj.AssemblyReference.cache
+D:\Trabalho Remoto\Desafios\Taesa\sistemaimobiliaria\src\AdmBoaFe.Data\obj\Debug\net6.0\AdmBoaFe.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trabalho Remoto\Desafios\Taesa\sistemaimobiliaria\src\AdmBoaFe.Data\obj\Debug\net6.0\AdmBoaFe.Data.AssemblyInfoInputs.cache
+D:\Trabalho Remoto\Desafios\Taesa\sistemaimobiliaria\src\AdmBoaFe.Data\obj\Debug\net6.0\AdmBoaFe.Data.AssemblyInfo.cs
+D:\Trabalho Remoto\Desafios\Taesa\sistemaimobiliaria\src\AdmBoaFe.Data\obj\Debug\net6.0\AdmBoaFe.Data.csproj.CoreCompileInputs.cache
+D:\Trabalho Remoto\Desafios\Taesa\sistemaimobiliaria\src\AdmBoaFe.Data\obj\Debug\net6.0\AdmBoaFe.Data.csproj.CopyComplete
+D:\Trabalho Remoto\Desafios\Taesa\sistemaimobiliaria\src\AdmBoaFe.Data\obj\Debug\net6.0\AdmBoaFe.Data.dll
+D:\Trabalho Remoto\Desafios\Taesa\sistemaimobiliaria\src\AdmBoaFe.Data\obj\Debug\net6.0\refint\AdmBoaFe.Data.dll
+D:\Trabalho Remoto\Desafios\Taesa\sistemaimobiliaria\src\AdmBoaFe.Data\obj\Debug\net6.0\AdmBoaFe.Data.pdb
+D:\Trabalho Remoto\Desafios\Taesa\sistemaimobiliaria\src\AdmBoaFe.Data\obj\Debug\net6.0\AdmBoaFe.Data.genruntimeconfig.cache
+D:\Trabalho Remoto\Desafios\Taesa\sistemaimobiliaria\src\AdmBoaFe.Data\obj\Debug\net6.0\ref\AdmBoaFe.Data.dll
